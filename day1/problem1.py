@@ -17,7 +17,6 @@ with open('/home/shem/projects/advent-of-code/day1/callibrations.txt', 'r') as f
 
         callibrations.append(int(callibration)) # Adding the value for each line to a list 
         
-    print(len(callibrations))
     print(sum(callibrations))
     
     
